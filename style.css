@@ -1137,10 +1137,9 @@ h4 {
 
 .link2 {
     padding-top: 10px;
-    height: 30px;
+    height: 100%;
     font-weight: bold;
     margin-left: 55px;
-    margin-bottom: 10px;
 }
 
 .link-custo {
