@@ -7,6 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 .black {
     color: black !important;
 }
@@ -73,6 +74,7 @@ a:hover {
 
 .bloc-lg {
     padding: 60px 50px;
+    z-index: 10;
 }
 
 .bloc-md {
@@ -472,6 +474,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    z-index: 10;
+    position: relative;
 }
 
 .mg-lg {
@@ -873,6 +877,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.webp");
+    z-index: -1;
 }
 
 .bg-presentation {
@@ -998,6 +1003,7 @@ h4 {
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
+        z-index: 10;
     }
     .site-navigation {
         position: inherit;
@@ -1069,6 +1075,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        z-index: 10;
     }
     .bloc-sm,
     .bloc-md {
