@@ -7,6 +7,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+	z-index: -1;
+}
 
 .black {
     color: black !important;
@@ -877,7 +880,6 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.webp");
-    z-index: -1;
 }
 
 .bg-presentation {
